@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangfire.AzureMetrics", "src\Hangfire.AzureMetrics.csproj", "{B0DB96E4-4CFA-44EE-ACEF-ECD7AA504613}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E11B90F3-5942-45CF-9237-44E15A0BC286}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangfire.AzureMetrics.TestHarness", "test\Hangfire.AzureMetrics.TestHarness\Hangfire.AzureMetrics.TestHarness.csproj", "{BA58B148-6C14-4BDE-AD29-7D326A024D95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,20 @@ Global
 		{B0DB96E4-4CFA-44EE-ACEF-ECD7AA504613}.Release|x64.Build.0 = Release|Any CPU
 		{B0DB96E4-4CFA-44EE-ACEF-ECD7AA504613}.Release|x86.ActiveCfg = Release|Any CPU
 		{B0DB96E4-4CFA-44EE-ACEF-ECD7AA504613}.Release|x86.Build.0 = Release|Any CPU
+		{BA58B148-6C14-4BDE-AD29-7D326A024D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA58B148-6C14-4BDE-AD29-7D326A024D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA58B148-6C14-4BDE-AD29-7D326A024D95}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BA58B148-6C14-4BDE-AD29-7D326A024D95}.Debug|x64.Build.0 = Debug|Any CPU
+		{BA58B148-6C14-4BDE-AD29-7D326A024D95}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BA58B148-6C14-4BDE-AD29-7D326A024D95}.Debug|x86.Build.0 = Debug|Any CPU
+		{BA58B148-6C14-4BDE-AD29-7D326A024D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA58B148-6C14-4BDE-AD29-7D326A024D95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA58B148-6C14-4BDE-AD29-7D326A024D95}.Release|x64.ActiveCfg = Release|Any CPU
+		{BA58B148-6C14-4BDE-AD29-7D326A024D95}.Release|x64.Build.0 = Release|Any CPU
+		{BA58B148-6C14-4BDE-AD29-7D326A024D95}.Release|x86.ActiveCfg = Release|Any CPU
+		{BA58B148-6C14-4BDE-AD29-7D326A024D95}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BA58B148-6C14-4BDE-AD29-7D326A024D95} = {E11B90F3-5942-45CF-9237-44E15A0BC286}
 	EndGlobalSection
 EndGlobal
